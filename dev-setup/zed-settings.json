@@ -1,0 +1,16 @@
+{
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "ui_font_family": "Monaspace Argon Var",
+  "buffer_font_family": "Monaspace Neon Var",
+  "theme": {
+    "mode": "system",
+    "light": "Kanagawa Wave",
+    "dark": "Kanagawa"
+  },
+  "terminal": {
+    "font_family": "Monaspace Xenon Var"
+  }
+}
