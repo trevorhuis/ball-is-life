@@ -5,6 +5,18 @@
   "relative_line_numbers": true,
   "ui_font_family": "Monaspace Argon Var",
   "buffer_font_family": "Monaspace Neon Var",
+  "buffer_font_features": {
+    "calt": 7,
+    "ss01": 7,
+    "ss02": 7,
+    "ss03": 7,
+    "ss04": 7,
+    "ss05": 7,
+    "ss06": 7,
+    "ss07": 7,
+    "ss08": 7,
+    "ss09": 7
+  },
   "theme": {
     "mode": "system",
     "light": "Kanagawa Wave",
