@@ -4,6 +4,6 @@
 
 Learning Roadmap:
 
-- Primeagen DSA Course (Completed in Go)
+- Primeagen DSA Course
 - Primeagen Git Course
 - Let's Go Book
