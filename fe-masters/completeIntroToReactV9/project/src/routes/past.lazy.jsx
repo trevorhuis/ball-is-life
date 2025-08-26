@@ -19,4 +19,5 @@ function PastOrdersRoute() {
     return <div className="past-orders">...loading</div>;
   }
 
-  return () 
+  return <div>Hello World!</div>;
+}
