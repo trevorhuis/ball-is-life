@@ -255,8 +255,29 @@
     .primary-navigation {
         ul {
             display: flex;
-
+            flex-wrap: wrap;
             gap: 0.5rem 1rem;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @media (width < 760px) {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            font-size: var(--font-size-lg);
+            font-weight: 700;
+            font-family: var(--ff-heading);
+            background-color: var(--background-accent-main);
+            padding: 2rem;
+            border-radius: 0 0 0 var(--border-radius-lg);
+
+            ul {
+                flex-direction: column;
+            }
         }
     }
 
