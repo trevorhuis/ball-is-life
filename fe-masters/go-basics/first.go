@@ -4,13 +4,20 @@ import "fmt"
 
 var name = "Frontend Masters"
 
-func calculateTax(price float32) (float32, float32) {
-	return price * 0.08, price * 0.02
+func birthday(age *int) {
+	if *age > 140 {
+		panic("Too old to be true")
+	}
+	fmt.Printf("The pointer is %v and the value is %d \n", age, *age)
+	*age++
 }
 
 func main() {
-	stateTax, localTax := calculateTax(100)
-	fmt.Println(stateTax, localTax)
+	defer fmt.Println("Bye!!")
 
-	printData()
+	age := 22
+	birthday(&age)
+	birthday(&age)
+	birthday(&age)
+	fmt.Println(age)
 }
