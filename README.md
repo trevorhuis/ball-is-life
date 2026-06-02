@@ -1,9 +1,7 @@
 # ball-is-life
 
-## A repository dedicated to my personal learning and dev setup
+## A repository dedicated to my dev setup
 
-Learning Roadmap:
+### Commands
 
-- Primeagen DSA Course
-- Primeagen Git Course
-- Let's Go Book
+```starship preset pure-preset -o ~/.config/starship.toml```

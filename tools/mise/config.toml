@@ -1,0 +1,46 @@
+[tools]
+node = { version = '24', postinstall = 'corepack enable' } # pnpm install
+
+# Terminal Tools
+starship = 'latest'
+lazygit = 'latest'
+ripgrep = 'latest'
+fzf = 'latest'
+zoxide = 'latest'
+eza = 'latest'
+bat = 'latest'
+fd = 'latest'
+tmux = 'latest'
+jq = 'latest'
+neovim = 'latest'
+gh = 'latest'
+go = 'latest'
+
+[shell_alias]
+
+c = 'code'
+lzg = 'lazygit'
+
+# eza
+ls = 'eza -lh --group-directories-first --icons=auto'
+lsa = 'ls -a'
+lt = 'eza --tree --level=2 --long --icons --git'
+lta = 'lt -a'
+
+# fzf 
+ff = "fzf --preview 'bat --style=numbers --color=always {}'"
+
+# zoxide
+cd = 'z'
+
+# Directories
+'..' = 'cd ..'
+'...' = 'cd ../..'
+'....' = 'cd ../../..'
+
+# Git
+g = 'git'
+gcm = 'git commit -m'
+gcam = 'git commit -a -m'
+gcad = 'git commit -a --amend'
+gcp = 'git cherry-pick'

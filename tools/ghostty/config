@@ -1,0 +1,23 @@
+desktop-notifications = true
+
+font-size = 16
+background-blur = 30
+window-padding-x = 10
+window-padding-y = 10
+
+copy-on-select = true
+mouse-hide-while-typing = true
+
+keybind = alt+backspace=text:\x1b\x7f
+
+keybind = cmd+shift+h=goto_split:left
+keybind = cmd+shift+j=goto_split:bottom
+keybind = cmd+shift+k=goto_split:top
+keybind = cmd+shift+l=goto_split:right
+
+keybind = cmd+shift+up=resize_split:up,25
+keybind = cmd+shift+down=resize_split:down,25
+keybind = cmd+shift+left=resize_split:left,25
+keybind = cmd+shift+right=resize_split:right,25
+theme = TokyoNight Storm
+background-opacity = 0.9
