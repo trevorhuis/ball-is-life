@@ -1,13 +1,6 @@
 {
-    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-    "workbench.colorTheme": "Atom One Dark",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "editor.lineHeight": 24,
-    "editor.lineNumbers": "relative",
-    "terminal.integrated.fontSize": 15,
-    
-    // Declutter
+    // VS Code General Settings
+    "workbench.colorTheme": "Tokyo Night Light",
     "workbench.statusBar.visible": false,
     "workbench.editor.enablePreview": false,
     "editor.minimap.enabled": false,
@@ -16,7 +9,28 @@
     "chat.disableAIFeatures": true,
     "workbench.activityBar.location": "hidden",
     "outline.showFiles": false,
-    
+
+    // Editor
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    "editor.lineNumbers": "relative",
+    "editor.guides.bracketPairs": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+
+    // Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.replaceTagsWhenPull": true,
+
+    // Terminal
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+
     // Vim
     "vim.leader": "<space>",
     "vim.easymotion": true,
@@ -42,14 +56,14 @@
             "before": ["j", "k"],
             "after": ["<Esc>"]
         },    
-        // {
-        //     "before": ["<A-j>"],
-        //     "commands": ["editor.action.moveLinesDownAction"]
-        // },    
-        // {
-        //     "before": ["<A-k>"],
-        //     "commands": ["editor.action.moveLinesUpAction"]
-        // }    
+        {
+            "before": ["<A-j>"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        },    
+        {
+            "before": ["<A-k>"],
+            "commands": ["editor.action.moveLinesUpAction"]
+        }    
     ],    
     "vim.normalModeKeyBindings": [
         {
@@ -92,6 +106,5 @@
             "before": ["g", "l"],
             "after": ["$"]
         }
-    ],
-
+    ]
 }
